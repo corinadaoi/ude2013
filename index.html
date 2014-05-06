@@ -14,25 +14,25 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="../reveal/css/reveal.min.css">
-		<link rel="stylesheet" href="../reveal/css/theme/night.css" id="theme">
+		<link rel="stylesheet" href="reveal/css/reveal.min.css">
+		<link rel="stylesheet" href="reveal/css/theme/night.css" id="theme">
 
 		<!-- For syntax highlighting -->
-		<link rel="stylesheet" href="../css/highlight/zenburn.css">
+		<link rel="stylesheet" href="css/highlight/zenburn.css">
 
 		<!-- For use of font-awesome icons -->
-		<link rel="stylesheet" href="../css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
 
 		<!-- Custom CSS -->
-		<link rel="stylesheet" href="../css/global.css">
+		<link rel="stylesheet" href="css/global.css">
 		
 		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
 		<script>
-			document.write( '<link rel="stylesheet" href="../reveal/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+			document.write( '<link rel="stylesheet" href="reveal/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
 		</script>
 
 		<!--[if lt IE 9]>
-		<script src="../reveal/lib/js/html5shiv.js"></script>
+		<script src="reveal/lib/js/html5shiv.js"></script>
 		<![endif]-->
 	</head>
 
@@ -44,7 +44,7 @@
 				<section> 
 					<h1>The Ultimate Developer Event 2013</h1>
 					<h2>Learning vs. Exposure</h2>
-					<p><a href="http://www.twitter.com/iamcorinaacosta" title="Corina Acosta on Twitter" target="_blank" class="roll"><span><i class="fa fa-twitter fa-3x"></i> iamcorinaacosta</span></a></p>
+					<p>Corina Acosta <a href="http://www.twitter.com/codelala" title="Corina Acosta on Twitter" target="_blank" class="roll"><i class="fa fa-twitter fa-3x"></i></a></p>
 				</section>
 
 				<section>
@@ -114,7 +114,9 @@
 							<li>Future: Building design systems in-house to solve unique problems</li>
 							<li>Documentation as style guides (Github Style Guide)</li>
 						</ul>
-						<i class="fa fa-arrow-circle-right fa-5x"></i>
+						<br/>
+						<br/>
+						<p><i class="fa fa-arrow-circle-right fa-5x"></i></p>
 					</section>
 				</section>
 				<section>
@@ -147,14 +149,13 @@
 				<section>
 					<h2>The End</h2>
 					<p><a href="index.html">Start Over</a></p>
-					<p><a href="http://www.iamcorinaacosta.com/slides/">Slides Index<a></p>
 				</section>
 
 			</div><!-- end of slides -->
 		</div><!-- end of reveal -->
 
-		<script src="../reveal/lib/js/head.min.js"></script>
-		<script src="../reveal/js/reveal.min.js"></script>
+		<script src="reveal/lib/js/head.min.js"></script>
+		<script src="reveal/js/reveal.min.js"></script>
 
 		<script>
 
@@ -171,12 +172,12 @@
 
 				// Optional libraries used to extend on reveal.js
 				dependencies: [
-					{ src: '../reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: '../reveal/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: '../reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: '../reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: '../reveal/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-					{ src: '../reveal/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					{ src: 'reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'reveal/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'reveal/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'reveal/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
 				]
 			});
 
